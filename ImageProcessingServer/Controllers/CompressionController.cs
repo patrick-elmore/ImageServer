@@ -1,4 +1,5 @@
 ﻿using ImageProcessingServer.Models.JSON;
+using Interfaces;
 using Kraken;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -21,7 +22,7 @@ namespace ImageProcessingServer.Controllers
         {
             string imgUrl = request.imageUrl;
 
-            KrakenService service = new KrakenService();
+            IImageService service = new KrakenService();
 
             string optimizedImageUrl = service.GetLosslessImage(imgUrl);
 
@@ -37,7 +38,7 @@ namespace ImageProcessingServer.Controllers
         {
             string imgUrl = request.imageUrl;
 
-            KrakenService service = new KrakenService();
+			IImageService service = new KrakenService();
 
             string optimizedImageUrl = service.GetLossyImage(imgUrl);
 

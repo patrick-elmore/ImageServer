@@ -1,4 +1,5 @@
-﻿using SeaMist;
+﻿using Interfaces;
+using SeaMist;
 using SeaMist.Model;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Kraken
 {
-    public class KrakenService
+    public class KrakenService : IImageService
     {
         public string GetLosslessImage(string url)
         {

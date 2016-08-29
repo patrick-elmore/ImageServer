@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessingServer.Tests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kraken", "Kraken\Kraken.csproj", "{FD60040C-0100-4FA9-BFAA-0C7FA0E79484}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{B4ED97EE-2335-477F-8303-1E5301BE4757}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,23 +29,12 @@ Global
 		{FD60040C-0100-4FA9-BFAA-0C7FA0E79484}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD60040C-0100-4FA9-BFAA-0C7FA0E79484}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD60040C-0100-4FA9-BFAA-0C7FA0E79484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4ED97EE-2335-477F-8303-1E5301BE4757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4ED97EE-2335-477F-8303-1E5301BE4757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4ED97EE-2335-477F-8303-1E5301BE4757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4ED97EE-2335-477F-8303-1E5301BE4757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://pelmore.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ImageProcessingServer.Tests\\ImageProcessingServer.Tests.csproj
-		SccProjectName1 = ImageProcessingServer.Tests
-		SccLocalPath1 = ImageProcessingServer.Tests
-		SccProjectUniqueName2 = ImageProcessingServer\\ImageProcessingServer.csproj
-		SccProjectName2 = ImageProcessingServer
-		SccLocalPath2 = ImageProcessingServer
-		SccProjectUniqueName3 = Kraken\\Kraken.csproj
-		SccProjectName3 = Kraken
-		SccLocalPath3 = Kraken
 	EndGlobalSection
 EndGlobal

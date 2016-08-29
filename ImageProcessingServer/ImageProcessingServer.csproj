@@ -236,6 +236,10 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{B4ED97EE-2335-477F-8303-1E5301BE4757}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Kraken\Kraken.csproj">
       <Project>{fd60040c-0100-4fa9-bfaa-0c7fa0e79484}</Project>
       <Name>Kraken</Name>
